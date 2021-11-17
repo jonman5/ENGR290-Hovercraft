@@ -1,5 +1,6 @@
 long range_sensor1, mm;
 int output;
+
 void setup() {
   Serial.begin(9600);
   pinMode(PD3, INPUT);
