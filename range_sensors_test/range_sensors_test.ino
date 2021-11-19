@@ -3,7 +3,9 @@ int output;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(PD3, INPUT);
+  pinMode(PD3, INPUT); //PD3 
+  pinMode(12, OUTPUT);
+  pinMode(PD3, INPUT); //PD4
   pinMode(12, OUTPUT);
 }
 
